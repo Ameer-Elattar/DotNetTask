@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Elattar\\Desktop\\c#\\TaskApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D47C2C7-7B48-4E3C-8747-BC9539368922}|TaskApp\\TaskApp.csproj|c:\\users\\elattar\\desktop\\c#\\taskapp\\taskapp\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D47C2C7-7B48-4E3C-8747-BC9539368922}|TaskApp\\TaskApp.csproj|solutionrelative:taskapp\\controllers\\subjectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D47C2C7-7B48-4E3C-8747-BC9539368922}|TaskApp\\TaskApp.csproj|c:\\users\\elattar\\desktop\\c#\\taskapp\\taskapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D47C2C7-7B48-4E3C-8747-BC9539368922}|TaskApp\\TaskApp.csproj|solutionrelative:taskapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D47C2C7-7B48-4E3C-8747-BC9539368922}|TaskApp\\TaskApp.csproj|c:\\users\\elattar\\desktop\\c#\\taskapp\\taskapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D47C2C7-7B48-4E3C-8747-BC9539368922}|TaskApp\\TaskApp.csproj|solutionrelative:taskapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D47C2C7-7B48-4E3C-8747-BC9539368922}|TaskApp\\TaskApp.csproj|c:\\users\\elattar\\desktop\\c#\\taskapp\\taskapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D47C2C7-7B48-4E3C-8747-BC9539368922}|TaskApp\\TaskApp.csproj|solutionrelative:taskapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D47C2C7-7B48-4E3C-8747-BC9539368922}|TaskApp\\TaskApp.csproj|c:\\users\\elattar\\desktop\\c#\\taskapp\\taskapp\\models\\stdsubj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D47C2C7-7B48-4E3C-8747-BC9539368922}|TaskApp\\TaskApp.csproj|solutionrelative:taskapp\\models\\stdsubj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D47C2C7-7B48-4E3C-8747-BC9539368922}|TaskApp\\TaskApp.csproj|c:\\users\\elattar\\desktop\\c#\\taskapp\\taskapp\\controllers\\stdsubjcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D47C2C7-7B48-4E3C-8747-BC9539368922}|TaskApp\\TaskApp.csproj|solutionrelative:taskapp\\controllers\\stdsubjcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Elattar\\Desktop\\c#\\TaskApp\\TaskApp\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "TaskApp\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Elattar\\Desktop\\c#\\TaskApp\\TaskApp\\Models\\Student.cs",
+              "RelativeToolTip": "TaskApp\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:29:39.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Elattar\\Desktop\\c#\\TaskApp\\TaskApp\\Program.cs",
+              "RelativeDocumentMoniker": "TaskApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Elattar\\Desktop\\c#\\TaskApp\\TaskApp\\Program.cs",
+              "RelativeToolTip": "TaskApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:25:14.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StdSubjController.cs",
+              "DocumentMoniker": "C:\\Users\\Elattar\\Desktop\\c#\\TaskApp\\TaskApp\\Controllers\\StdSubjController.cs",
+              "RelativeDocumentMoniker": "TaskApp\\Controllers\\StdSubjController.cs",
+              "ToolTip": "C:\\Users\\Elattar\\Desktop\\c#\\TaskApp\\TaskApp\\Controllers\\StdSubjController.cs",
+              "RelativeToolTip": "TaskApp\\Controllers\\StdSubjController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:22:06.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SubjectController.cs",
+              "DocumentMoniker": "C:\\Users\\Elattar\\Desktop\\c#\\TaskApp\\TaskApp\\Controllers\\SubjectController.cs",
+              "RelativeDocumentMoniker": "TaskApp\\Controllers\\SubjectController.cs",
+              "ToolTip": "C:\\Users\\Elattar\\Desktop\\c#\\TaskApp\\TaskApp\\Controllers\\SubjectController.cs",
+              "RelativeToolTip": "TaskApp\\Controllers\\SubjectController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:19:09.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StdSubj.cs",
+              "DocumentMoniker": "C:\\Users\\Elattar\\Desktop\\c#\\TaskApp\\TaskApp\\Models\\StdSubj.cs",
+              "RelativeDocumentMoniker": "TaskApp\\Models\\StdSubj.cs",
+              "ToolTip": "C:\\Users\\Elattar\\Desktop\\c#\\TaskApp\\TaskApp\\Models\\StdSubj.cs",
+              "RelativeToolTip": "TaskApp\\Models\\StdSubj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T03:16:27.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Elattar\\Desktop\\c#\\TaskApp\\TaskApp\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "TaskApp\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Elattar\\Desktop\\c#\\TaskApp\\TaskApp\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "TaskApp\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T00:38:28.154Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

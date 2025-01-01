@@ -29,7 +29,8 @@ namespace TaskApp.Controllers
         public IActionResult getById(int id)
         {
             var student = context.students.Where(s=>s.Id == id)
-                .Select(std => new { 
+                .Select(std => new {
+                    id=std.Id,
                     name = std.Name, 
                     address = std.Address,
                     subjects = std.StdSubjs.Select(sub => new {id=sub.subjId,name=sub.Subject.Name}) });
@@ -61,6 +62,36 @@ namespace TaskApp.Controllers
             context.students.Remove(student);
             context.SaveChanges();
             return NoContent();
+        }
+        [HttpPost("{stdID:int}/update-subjects")]
+        public IActionResult updateStudentSubjects(int stdID, int[] subjIDs)
+        {
+            var student = context.students.SingleOrDefault(s => s.Id == stdID);
+            if (student == null)
+                return BadRequest("Student not found");
+
+            var subjects = context.subjects.Where(s => subjIDs.Contains(s.Id)).ToList();
+
+
+            var studentSubjects = context.StdSubjs.Where(s => s.stdId == stdID).ToList();
+            context.RemoveRange(studentSubjects);
+
+
+            var newSubjects = subjects
+                .Select(subject => new StdSubj
+                {
+                    stdId = student.Id,
+                    subjId = subject.Id
+                })
+                .ToList();
+
+            if (newSubjects.Any())
+            {
+                context.StdSubjs.AddRange(newSubjects);
+            }
+            context.SaveChanges();
+
+            return Ok(new { message = "Student subjects updated successfully" });
         }
     }
 }

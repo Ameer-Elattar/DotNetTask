@@ -20,7 +20,15 @@ namespace TaskApp
 
             builder.Services.AddDbContext<TaskContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAllOrigins", policy =>
+                {
+                    policy.AllowAnyOrigin()    // Allows any origin
+                          .AllowAnyHeader()    // Allows any header
+                          .AllowAnyMethod();   // Allows any HTTP method
+                });
+            });
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
@@ -35,6 +43,7 @@ namespace TaskApp
                 app.UseSwaggerUI();
             }
 
+            app.UseCors("AllowAllOrigins");
             app.UseAuthorization();
 
 
