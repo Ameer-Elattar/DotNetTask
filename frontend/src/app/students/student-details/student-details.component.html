@@ -1,0 +1,27 @@
+<div class="card w-75 mx-auto mt-3">
+  <div class="card-header text-end">
+    <a
+      routerLink="/students/add-remove-subj/{{ stdData?.id }}"
+      class="btn btn-primary me-2"
+      >assgin/remove subject</a
+    >
+  </div>
+  <div class="card-body">
+    <p>Student ID: {{ stdData?.id }}</p>
+    <p>Student Name: {{ stdData?.name }}</p>
+    <p>Student address: {{ stdData?.address }}</p>
+    <div>
+      Student subjects:
+      <ul>
+        @for (sub of stdData?.subjects; track $index) {
+        <li>{{ sub.name }}</li>
+        }@empty {
+        <li class="text-danger">Student didn't register in any subjects</li>
+        }
+      </ul>
+    </div>
+  </div>
+  <div class="card-footer text-center">
+    <a routerLink="/students">back to list</a>
+  </div>
+</div>

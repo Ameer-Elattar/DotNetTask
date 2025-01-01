@@ -1,0 +1,57 @@
+<section class="container">
+  <a class="btn btn-primary my-3" routerLink="add">Add Student</a>
+  <table class="table table-hover border">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Address</th>
+        <th scope="col">Subjects</th>
+        <th scope="col">Details</th>
+        <th scope="col">Edit</th>
+        <th scope="col">Delete</th>
+        <th scope="col">assign/delete subject</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for (std of students; track $index) {
+      <tr>
+        <td>{{ $index+1 }}</td>
+        <td>{{ std.name }}</td>
+        <td>{{ std.address }}</td>
+        <td>
+          <ul>
+            @for (sub of std?.subjects; track $index) {
+            <li>{{ sub.name }}</li>
+            }@empty {
+            <li class="text-danger">Student didn't register in any subjects</li>
+            }
+          </ul>
+        </td>
+        <td>
+          <a class="btn btn-info" routerLink="details/{{ std.id }}">Details</a>
+        </td>
+        <td>
+          <a class="btn btn-warning" routerLink="edit/{{ std.id }}">Edit</a>
+        </td>
+        <td>
+          <button class="btn btn-danger" (click)="deleteUser(std.id)">
+            Delete
+          </button>
+        </td>
+        <td>
+          <a
+            routerLink="/students/add-remove-subj/{{ std?.id }}"
+            class="btn btn-primary me-2"
+            >assgin/remove
+          </a>
+        </td>
+      </tr>
+      }@empty {
+      <td colspan="8">
+        <h1 class="text-danger text-center">There are no Students.</h1>
+      </td>
+      }
+    </tbody>
+  </table>
+</section>
